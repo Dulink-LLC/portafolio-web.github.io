@@ -1,0 +1,293 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.container {
+  margin: 50px;
+}
+
+.radio-logo {
+  width: 100px;
+}
+
+.invoiceNumb {
+  float: right;
+}
+.boxNumb {
+  display: flex;
+  flex-direction: row;
+}
+
+.doc {
+  width: 50px;
+}
+
+.invoiceMayus {
+  margin: auto 10px;
+  color: aquamarine;
+}
+
+.invoiceNumber {
+  font-size: 14px;
+  margin-top: 17px;
+}
+
+.info {
+  display: inline-block;
+}
+
+.statInfo {
+  text-align: left;
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  display: inline-block;
+  width: 100%;
+}
+
+.upSide {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 150px;
+}
+.upSide .leftSide {
+  display: flex;
+  flex-direction: row;
+  min-width: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+}
+
+.leftBox {
+  width: 50%;
+  display: inline;
+}
+
+.rightBox {
+  width: 50%;
+  display: inline;
+}
+
+.statInfo2 {
+  margin: 7px 0;
+}
+
+.separador {
+  display: inline-block;
+  height: 150px;
+  border-left: 1px solid grey;
+  width: 2px;
+}
+
+.upSide .rightSide {
+  display: flex;
+  flex-direction: row;
+  min-width: 400px;
+  padding-top: -10px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+}
+
+.fechasBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.issue {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.issueTitle {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.dateIssue {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.qr {
+  margin-top: 20px;
+  margin-left: 120px;
+}
+
+.qrImg {
+  width: 120px;
+}
+
+.separador2 {
+  display: inline-block;
+  border-bottom: 1px solid grey;
+  width: 100%;
+  height: 2px;
+}
+
+.downSide {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 150px;
+}
+
+.downSide .leftSide {
+  min-width: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+}
+
+.campaignBox {
+  width: 200px;
+  padding: 30px;
+  margin: 30x auto;
+}
+
+.blueP {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin-bottom: 5px;
+  text-align: left;
+  color: rgb(82, 133, 192);
+}
+
+.infoCamp {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: left;
+}
+
+.downSide .rightSide {
+  display: flex;
+  flex-direction: row;
+  min-width: 400px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+}
+
+.boxDate {
+  width: 127px;
+  height: 77px;
+  border: 3px solid aquamarine;
+  border-radius: 19px;
+  padding: 2px 15px;
+  text-align: center;
+  margin: 10px 15px;
+}
+
+.titleBox {
+  font-size: 16px;
+  color: grey;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.dateForBox {
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: rgb(31, 20, 20);
+}
+
+.table {
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 200px;
+}
+
+.titleTables {
+  display: flex;
+  flex-direction: row;
+}
+
+.firstTitle {
+  color: grey;
+  text-align: left;
+  font-size: 14px;
+  margin: 20px 10px;
+  margin-right: 580px;
+}
+
+.itemTitle {
+  color: grey;
+  text-align: left;
+  font-size: 14px;
+  margin: 20px 30px;
+}
+
+.contentTables {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.firstItemTitle {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-size: 18px;
+  margin: 20px 10px;
+  margin-right: 270px;
+  width: 300px;
+}
+
+.itemPrice {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-size: 18px;
+  margin: 20px 31px;
+}
+
+.cuentas {
+  margin-left: 250px;
+  display: flex;
+  flex-direction: row;
+}
+
+.titleCost {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.subtotal {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.discount {
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.totalAmount {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  margin: 40px 0;
+}
+
+.cost {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin-top: 30px;
+  margin-left: 600px;
+}
